@@ -1,0 +1,512 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FACHADAS NATAL</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Rehabilitaciòn de fachadas,deslunados, patio de luces,impermeabilizacion de terrazas,limpieza de grafitis" />
+	<meta name="keywords" content="valencia fachadas rehabilitacion deslunados patio de luces impermeabilizacion de terrazas limpiezaa de grafitis" />
+	<meta name="author" content="kevinriveradevelop" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	Diseño y desarrollo del sitio para la empresa fachadas natal
+		
+	Website: 		http://fachadasnatal.es/
+	Email: 			natalproyectos@gmail.com
+	
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- 
+	Default Theme Style 
+	You can change the style.css (default color purple) to one of these styles
+	
+	1. pink.css
+	2. blue.css
+	3. turquoise.css
+	4. orange.css
+	5. lightblue.css
+	6. brown.css
+	7. green.css
+
+	-->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
+	<link rel="stylesheet" id="theme-switch" href="css/style.css">
+	<!-- End demo purposes only -->
+
+
+	<style>
+	/* For demo purpose only */
+	
+	/* For Demo Purposes Only ( You can delete this anytime :-) */
+	#colour-variations {
+		padding: 10px;
+		-webkit-transition: 0.5s;
+	  	-o-transition: 0.5s;
+	  	transition: 0.5s;
+		width: 140px;
+		position: fixed;
+		left: 0;
+		top: 100px;
+		z-index: 999999;
+		background: #fff;
+		/*border-radius: 4px;*/
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+	}
+	#colour-variations.sleep {
+		margin-left: -140px;
+	}
+	#colour-variations h3 {
+		text-align: center;;
+		font-size: 11px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #777;
+		margin: 0 0 10px 0;
+		padding: 0;;
+	}
+	#colour-variations ul,
+	#colour-variations ul li {
+		padding: 0;
+		margin: 0;
+	}
+	#colour-variations li {
+		list-style: none;
+		display: block;
+		margin-bottom: 5px!important;
+		float: left;
+		width: 100%;
+	}
+	#colour-variations li a {
+		width: 100%;
+		position: relative;
+		display: block;
+		overflow: hidden;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		border-radius: 4px;
+		-webkit-transition: 0.4s;
+		-o-transition: 0.4s;
+		transition: 0.4s;
+	}
+	#colour-variations li a:hover {
+	  	opacity: .9;
+	}
+	#colour-variations li a > span {
+		width: 33.33%;
+		height: 20px;
+		float: left;
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+	}
+	
+
+	.option-toggle {
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-top: 5px;
+		margin-right: -30px;
+		width: 30px;
+		height: 30px;
+		background: #f64662;
+		text-align: center;
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+		color: #fff;
+		cursor: pointer;
+		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+	}
+	.option-toggle i {
+		top: 2px;
+		position: relative;
+	}
+	.option-toggle:hover, .option-toggle:focus, .option-toggle:active {
+		color:  #fff;
+		text-decoration: none;
+		outline: none;
+	}
+	</style>
+	<!-- End demo purposes only -->
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<header role="banner" id="fh5co-header" style="
+    height: 80px;
+">
+			<div class="container">
+				<!-- <div class="row"> -->
+			    <nav class="navbar navbar-default">
+		        <div class="navbar-header">
+		        	<!-- Mobile Toggle Menu Button -->
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		         <a class="navbar-brand" href="index.html"><span><img src="images/fachadas-natal.png" width="80px" height="80px"></span>REHABILITACIÓN INTEGRAL DE EDIFICIOS</a> 
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav navbar-right" style="
+    margin-top: 25px;
+" >
+		            <li class="active"><a href="#" data-nav-section="home"><span>Inicio</span></a></li>
+                    <li><a href="#" data-nav-section="services"><span>Servicios</span></a></li>
+		            <li><a href="#" data-nav-section="work"><span>Nuestro trabajo</span></a></li>
+		            <li><a href="#" data-nav-section="contact"><span>Contacto</span></a></li>
+		          </ul>
+		        </div>
+			    </nav>
+			  <!-- </div> -->
+		  </div>
+	</header>
+
+	<section id="fh5co-home" data-section="home" style="background-image: url(images/fachada.jpg);" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+                            <span><img src="images/fachadas-natal.png" width="300px" height="300px"></span>
+							<h1 class="to-animate">FACHADAS NATAL</h1>
+							<h2 class="to-animate">Rehabilitación de Fachadas de edificios, deslunados, patio de Luces, impermeabilizacion de Terrazas, limpieza de Grafittis.</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slant"></div>
+	</section>
+
+
+	
+
+	<section id="fh5co-services" data-section="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-left" style="
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+">
+					<h2 class=" left-border to-animate">Servicios</h2>
+					<div class="row">
+						<div class="col-md-8 subtext to-animate">
+							<h3>FACHADAS NATAL! Pioneros en el sector de <b>rehabilitaciòn de edificios</b></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<img src="images/a.png" class="img-responsive" width="60px" height="60px">
+					<h3>Rehabilitación integral</h3>
+					<p>Rehabilitación integral de edificos y fachadas, reformas, patología estructural. Impermeabilizacion de tejados, terrazas, cambio de bajantes, pintura, consolidación de estructuras.</p>
+				</div>
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<img src="images/b.png" class="img-responsive" width="60px" height="60px">
+					<h3>Refuerzos estructurales</h3>
+					<p>Rehabilitación integral de fachadas, limpieza, revocos, estuco, monumentos, fijacion de aplicados.</p>
+				</div>
+                
+				<div class="clearfix visible-sm-block"></div>
+			</div>
+            
+            <div class="row">
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<img src="images/c.png" class="img-responsive" width="60px" height="60px">
+					<h3>Trabajos verticales</h3>
+					<p>Trabajos en alturas para rehabilitación de fachadas, limpiezas, fontanería, desprendimientos, rotulos publicitarios, trabajos en industria, fabricas, presas...</p>
+				</div>
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<img src="images/d.png" class="img-responsive" width="60px" height="60px">
+					<h3>Limpieza de grafftis</h3>
+					<p>Contamos con una amplia gama de productos para la eliminacion integral de pintadas sin dejar ninguna sombra o cerco.<br>
+                    Limpieza de graffitis con una experiencia de 25 años contando con las últimas tecnologías, equipos, autonomos sin necesidad de corriente electrica.<br>Usamos productos biodegradables sin impacto en el medio ambiente.</p>
+				</div>
+                
+				<div class="clearfix visible-sm-block"></div>
+			</div>
+            
+            <div class="row">
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<img src="images/e.png" class="img-responsive" width="60px" height="60px">
+					<h3><b>MÀXIMA COMPETITIVIDAD Y FINANCIACIÒN</b></h3>
+					<p>Mejoramos cualquier oferta que tenga la comunidad de propietarios, siempre contando con las mismas condiciones entre los licitantes. Tenemos la mejor relacion calidad precio del mercado.</p>
+				</div>
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<img src="images/f.png" class="img-responsive" width="60px" height="60px">
+					<h3>MAXIMA SEGURIDAD EN SU OBRA</h3>
+					<p>FACHADAS NATAL dispone de un seguro de responsabilidad civil que cubre cualquier contingencia que pueda surgir.</p>
+				</div>
+                
+				<div class="clearfix visible-sm-block"></div>
+			</div>
+            <div class="row">
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<img src="images/e.png" class="img-responsive" width="60px" height="60px">
+					<h3><b>IMPERMEABILIZACIÒN DE TERRAZAS Y CUBIERTAS</b></h3>
+					<p>Impermeabilizacion de tejados, cubiertas y terrazas.</p>
+				</div>
+                <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<img src="images/e.png" class="img-responsive" width="60px" height="60px">
+					<h3><b>RETIRADA DE AMIANTO</b></h3>
+					<p>Desmontaje y tratamiento de placas y bajantes de fibrocemento arreglo normativa vigente.</p>
+				</div>
+				<div class="clearfix visible-sm-block"></div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="fh5co-work" data-section="work">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Nuestro trabajo</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>!Contamos con la calidad que necesitas¡</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-sm">
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/proyectos/rehabilitacion.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/proyectos/rehabilitacion.jpg" alt="Image" class="img-responsive pad">
+						<div class="fh5co-text">
+						<h2>Rehabilitación</h2>
+						<span>Rehabilitación integral de edificios.</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/proyectos/refuerzo.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/proyectos/refuerzo.jpg" alt="Image" class="img-responsive pad">
+						<div class="fh5co-text">
+						<h2>Refuerzo</h2>
+						<span>Consolidacion de estructura</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/proyectos/impermeable.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/proyectos/impermeable.jpg" alt="Image" class="img-responsive pad">
+						<div class="fh5co-text">
+						<h2>Impermeabilizacion</h2>
+						<span>Trabajo de imperemeabilizacion de terraza</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/proyectos/desprendimiento.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/proyectos/desprendimiento.jpg" alt="Image" class="img-responsive pad">
+						<div class="fh5co-text">
+						<h2>Desprendimientos</h2>
+						<span>Rehabilitación de fachada desprendida</span>
+						</div>
+					</a>
+				</div>
+				
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/proyectos/graffitis.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/proyectos/graffitis.jpg" alt="Image" class="img-responsive pad">
+						<div class="fh5co-text">
+						<h2>Graffitis</h2>
+						<span>Eliminacion de graffitis de fachada</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/proyectos/rotulos.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/proyectos/rotulos.jpg" alt="Image" class="img-responsive pad">
+						<div class="fh5co-text">
+						<h2>Instalación de rotulo</h2>
+						<span>Instalacion de rótulo publicitario</span>
+						</div>
+					</a>
+				</div>
+				
+				
+		</div>
+        </div>
+	</section>
+
+	
+	
+	<section id="fh5co-contact" data-section="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Contáctanos</h2>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-6 to-animate">
+					<h3>Informacion de contacto</h3>
+					<ul class="fh5co-contact-info">
+						<li class="fh5co-contact-address ">
+							<i class="icon-home"></i>
+							Avd. del puerto nº259
+						</li>
+                        <li><i class="icon-phone" style="color: black"></i><b>630 059 956 | 722 216 120</b></li>
+                        <li><i class="icon-envelope" style="color: black"></i><b>natalproyectos@gmail.com</b></li>
+                        <li><i class="" style="color: black"></i><b>www.rehabilitacionesnatal.es</b></li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 to-animate">
+					<h3>Escríbenos</h3>
+					<div class="form-group ">
+						<label for="name" class="sr-only">Nombre</label>
+						<input id="name" class="form-control" placeholder="Nombre" type="text">
+					</div>
+					<div class="form-group ">
+						<label for="email" class="sr-only">Email</label>
+						<input id="email" class="form-control" placeholder="Email" type="email">
+					</div>
+					<div class="form-group ">
+						<label for="phone" class="sr-only">Teléfono</label>
+						<input id="phone" class="form-control" placeholder="Telefono" type="text">
+					</div>
+					<div class="form-group ">
+						<label for="message" class="sr-only">Mensaje</label>
+						<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Mensaje"></textarea>
+					</div>
+					<div class="form-group ">
+						<input class="btn btn-primary btn-lg " style="background: #a94a1d" value="Enviar" type="submit">
+					</div>
+					</div>
+				</div>
+
+			</div>
+			</section>
+	
+	
+	<footer id="footer" role="contentinfo">
+		<a href="#" class="gotop js-gotop">To<i class="icon-arrow-up2">Top</i></a>
+		<div class="container">
+			<div class="">
+				<div class="col-md-12 text-center">
+                    <span><img src="images/experencia.png" width="150px" height="150px"></span>
+					<p>&copy;Fachadas natal. All right reserverd</p>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social social-circle">
+						<li><a href="#"><i class="icon-twitter"></i></a></li>
+						<li><a href="#"><i class="icon-facebook"></i></a></li>
+						<li><a href="#"><i class="icon-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+	
+
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Counter -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+
+	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
+	<script src="js/jquery.style.switcher.js"></script>
+	<script>
+		$(function(){
+			$('#colour-variations ul').styleSwitcher({
+				defaultThemeId: 'theme-switch',
+				hasPreview: false,
+				cookie: {
+		          	expires: 30,
+		          	isManagingLoad: true
+		      	}
+			});	
+			$('.option-toggle').click(function() {
+				$('#colour-variations').toggleClass('sleep');
+			});
+		});
+	</script>
+	<!-- End demo purposes only -->
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
